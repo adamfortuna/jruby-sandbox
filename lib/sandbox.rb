@@ -235,6 +235,11 @@ module Sandbox
       type
       untaint
       __send__
+
+      caller
+      extend
+      require
+      gem_original_require
     ].freeze
 
     NILCLASS_METHODS = %w[
